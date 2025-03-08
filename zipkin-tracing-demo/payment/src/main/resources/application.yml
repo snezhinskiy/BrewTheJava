@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: payment
+server:
+  port: 8083
+
+management:
+  tracing:
+    enabled: true
+    propagation:
+      produce: b3_multi
+  zipkin:
+    tracing:
+      enabled: true
+      base-url: http://localhost:9411

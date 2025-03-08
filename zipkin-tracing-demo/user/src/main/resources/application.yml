@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: user
+server:
+  port: 8084
+
+management:
+  tracing:
+    enabled: true
+  zipkin:
+    tracing:
+      enabled: true
+      base-url: http://localhost:9411
