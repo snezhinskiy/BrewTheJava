@@ -1,0 +1,4 @@
+rootProject.name = 'ping-pong-otel-tracing-demo'
+
+include 'ping'
+include 'pong'
